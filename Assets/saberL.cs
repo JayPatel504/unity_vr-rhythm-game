@@ -9,6 +9,7 @@ public class saberL : MonoBehaviour
     private Vector3 prevPos;
     public int ss=0;
 
+
     // Start is called before the first frame update
     void Start()
     {

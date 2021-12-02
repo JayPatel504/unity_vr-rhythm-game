@@ -27,7 +27,7 @@ public class spawn : MonoBehaviour
     void Realtime(){
 
         if(timer>12){ 
-            GameObject cube = Instantiate(cubes[Random.Range(0,1)],pts[Random.Range(0,2)]);
+            GameObject cube = Instantiate(cubes[Random.Range(0,1)],pts[Random.Range(0,1)]);
             cube.transform.localPosition=Vector3.zero;
             cube.transform.Rotate(transform.forward,90*Random.Range(0,4));
             timer-=beat;
